@@ -6,7 +6,7 @@ LOCAL_PATH := device/samsung/a25ex
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-#PRODUCT_TARGET_VNDK_VERSION := 36
+PRODUCT_TARGET_VNDK_VERSION := 36
 PRODUCT_EXTRA_VNDK_VERSIONS := 35
 PRODUCT_SHIPPING_API_LEVEL := 35
 PRODUCT_FIRST_API_LEVEL := 33
@@ -181,6 +181,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
+    $(LOCAL_PATH)/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info
+    $(LOCAL_PATH)/firmware/   wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info
 
 # Overlays
