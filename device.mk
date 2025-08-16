@@ -183,37 +183,38 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf \
     $(LOCAL_PATH)/wifi/indoorchannel.info:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/indoorchannel.info \
     $(LOCAL_PATH)/firmware/BT_FW.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/BT_FW.cfg \
-    $(LOCAL_PATH)/firmware/SetMultiCal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SetMultiCal.bin
+    $(LOCAL_PATH)/firmware/SetMultiCal.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SetMultiCal.bin \
     $(LOCAL_PATH)/firmware/SoundBoosterParam.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/SoundBoosterParam.bin \
-    $(LOCAL_PATH)/firmware/WIFI:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI
+    $(LOCAL_PATH)/firmware/WIFI:$(TARGET_COPY_OUT_VENDOR)/firmware/WIFI \
     $(LOCAL_PATH)/firmware/WMT_SOC.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/WMT_SOC.cfg \
-    $(LOCAL_PATH)/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin
+    $(LOCAL_PATH)/firmware/aw882xx_acf.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw882xx_acf.bin \
     $(LOCAL_PATH)/firmware/connsys_mt6835_mt6631:$(TARGET_COPY_OUT_VENDOR)/firmware/connsys_mt6835_mt6631 \
-    $(LOCAL_PATH)/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg
+    $(LOCAL_PATH)/firmware/fm_cust.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/fm_cust.cfg \
     $(LOCAL_PATH)/firmware/mt6627_fm_channel_param.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_channel_param.dat \
-    $(LOCAL_PATH)/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin
+    $(LOCAL_PATH)/firmware/mt6627_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6627_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6627_fm_v1_patch.bin \
-    $(LOCAL_PATH)/firmware/mt6630_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_coeff.bin
+    $(LOCAL_PATH)/firmware/mt6630_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6630_fm_v2_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff.bin \
-    $(LOCAL_PATH)/firmware/mt6630_fm_v2_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch.bin
+    $(LOCAL_PATH)/firmware/mt6630_fm_v2_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch.bin \
     $(LOCAL_PATH)/firmware/mt6631_fm_channel_param.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_channel_param.dat \
-    $(LOCAL_PATH)/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin
+    $(LOCAL_PATH)/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6632_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_coeff.bin \
-    $(LOCAL_PATH)/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin
+    $(LOCAL_PATH)/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin \
     $(LOCAL_PATH)/firmware/mt6635_fm_channel_param.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_channel_param.dat \
-    $(LOCAL_PATH)/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin
+    $(LOCAL_PATH)/firmware/mt6635_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6635_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_v1_patch.bin \
-    $(LOCAL_PATH)/firmware/nt36528a_a25ex_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36528a_a25ex_tianma.bin
-    $(LOCAL_PATH)/firmware/nt36528a_a25ex_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36528a_a25ex_tianma_mp.bin
+    $(LOCAL_PATH)/firmware/nt36528a_a25ex_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36528a_a25ex_tianma.bin \
+    $(LOCAL_PATH)/firmware/nt36528a_a25ex_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36528a_a25ex_tianma_mp.bin \
     $(LOCAL_PATH)/firmware/nt36672_a25ex_tianma.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_a25ex_tianma.bin \
-    $(LOCAL_PATH)/firmware/nt36672_a25ex_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_a25ex_tianma_mp.bin
+    $(LOCAL_PATH)/firmware/nt36672_a25ex_tianma_mp.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nt36672_a25ex_tianma_mp.bin \
     $(LOCAL_PATH)/firmware/remoteproc_scp:$(TARGET_COPY_OUT_VENDOR)/firmware/remoteproc_scp \
-    $(LOCAL_PATH)/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin
+    $(LOCAL_PATH)/firmware/soc_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/soc_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/soc_fm_v1_patch.bin \
-    $(LOCAL_PATH)/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg
+    $(LOCAL_PATH)/firmware/wifi.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/wifi.cfg \
     $(LOCAL_PATH)/firmware/wlan-connection-roaming-backup:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming-backup \
-    $(LOCAL_PATH)/firmware/wlan-connection-roaming.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming.ini
+    $(LOCAL_PATH)/firmware/wlan-connection-roaming.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming.ini \
     $(LOCAL_PATH)/firmware/nfc/sec_s3nsen6_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nsen6_firmware.bin
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
