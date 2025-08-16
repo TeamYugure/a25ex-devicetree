@@ -30,11 +30,151 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
 
+# Audio
+PRODUCT_PACKAGES += \
+    audio.bluetooth.default \
+    audio.usb.default \
+    audio.r_submix.default \
+    audio_policy.stub
+
+PRODUCT_PACKAGES += \
+    android.hardware.audio@5.0.vendor \
+    android.hardware.audio.common@5.0-util.vendor \
+    android.hardware.soundtrigger@2.2 \
+    android.hardware.soundtrigger@2.2.vendor
+
+PRODUCT_PACKAGES += \
+    libaudiopreprocessing \
+    libtinycompress \
+    libtinyxml
+
+# Bluetooth
+PRODUCT_PACKAGES += \
+    android.hardware.bluetooth.a2dp@1.0.vendor \
+    android.hardware.bluetooth@1.0.vendor
+
+# Camera
+PRODUCT_PACKAGES += \
+    android.hardware.camera.common@1.0.vendor \
+    android.hardware.camera.device@1.0.vendor \
+    android.hardware.camera.device@3.2.vendor \
+    android.hardware.camera.device@3.3.vendor \
+    android.hardware.camera.device@3.4.vendor \
+    android.hardware.camera.device@3.5.vendor \
+    android.hardware.camera.provider@2.4.vendor \
+    android.hardware.camera.provider@2.5.vendor
+
+PRODUCT_PACKAGES += \
+    android.hardware.configstore@1.1-service
+
+PRODUCT_PACKAGES += \
+    android.hardware.drm-service.clearkey
+
+PRODUCT_PACKAGES += \
+    android.hardware.drm@1.4.vendor
+
+PRODUCT_PACKAGES += \
+    libdrmclearkeyplugin \
+    libmockdrmcryptoplugin
+
+# Display
+PRODUCT_PACKAGES += \
+    libhwc2on1adapter \
+    libhwc2onfbadapter
+
+# SamsungAdvancedDisplay
+PRODUCT_PACKAGES += \
+    AdvancedDisplay \
+
+# SamsungDoze
+PRODUCT_PACKAGES += \
+    SamsungDoze \
+
+# Fingerprint
+PRODUCT_PACKAGES += \
+    android.hardware.biometrics.face@1.0.vendor \
+    android.hardware.biometrics.fingerprint@2.1.vendor \
+
+PRODUCT_PACKAGES += \
+    android.hidl.allocator@1.0.vendor \
+    libhidltransport \
+    libhidltransport.vendor \
+    libhwbinder \
+    libhwbinder.vendor
+
+PRODUCT_PACKAGES += \
+    android.hardware.keymaster@3.0-service-samsung \
+    android.hardware.keymaster@3.0-impl \
+    libkeystore-engine-wifi-hidl \
+    libkeystore-wifi-hidl
+
+# Libxml2
+PRODUCT_PACKAGES += \
+    libxml2.vendor
+
+# Gatekeeper
+PRODUCT_PACKAGES += \
+    android.hardware.gatekeeper@1.0-service \
+    android.hardware.gatekeeper@1.0-impl
+
+# GPS
+PRODUCT_PACKAGES += \
+    android.hardware.gnss@2.0.vendor
+
+# Power
+PRODUCT_PACKAGES += \
+    android.hardware.power@1.0.vendor \
+    android.hardware.power@1.1.vendor \
+    android.hardware.power@1.2.vendor \
+    android.hardware.power@1.3.vendor
+
+# Renderscript
+PRODUCT_PACKAGES += \
+    android.hardware.renderscript@1.0-impl
+
+# Radio
+PRODUCT_PACKAGES += \
+    android.hardware.broadcastradio@1.0.vendor \
+    android.hardware.broadcastradio@1.1.vendor \
+    android.hardware.radio.config@1.0.vendor \
+    android.hardware.radio.config@1.1.vendor \
+    android.hardware.radio@1.2.vendor \
+    android.hardware.radio@1.3.vendor \
+    android.hardware.radio@1.4.vendor
+
+# BPF
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.kernel.ebpf.supported=false \
+    bpf.progs_loaded=1
+
+PRODUCT_PACKAGES += \
+    android.hardware.sensors@2.0.vendor
+
+PRODUCT_PACKAGES += \
+    libsensorndkbridge
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@1.0-impl
+
+PRODUCT_PACKAGES += \
+    android.hardware.thermal@2.0.vendor
+
+PRODUCT_PACKAGES += \
+    android.hardware.usb@1.0-service.basic
+
+# Vibrator
+PRODUCT_PACKAGES += \
+    android.hardware.vibrator@1.0-impl \
+    android.hardware.vibrator@1.0-service
+
+# WiFi
+PRODUCT_PACKAGES += \
+    android.hardware.wifi@1.3.vendor \
+    android.hardware.wifi.supplicant@1.2.vendor \
+    android.hardware.wifi.hostapd@1.1.vendor
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
-
-# Product characteristics
-PRODUCT_CHARACTERISTICS := phone
 
 # Rootdir
 PRODUCT_PACKAGES += \
