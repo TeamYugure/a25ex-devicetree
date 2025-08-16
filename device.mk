@@ -196,8 +196,12 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/mt6630_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6630_fm_v2_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6630_fm_v2_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch.bin \
+    $(LOCAL_PATH)/firmware/mt6630_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v1_patch.bin \
+    $(LOCAL_PATH)/firmware/mt6630_fm_v2_patch_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_patch_tx.bin \
+    $(LOCAL_PATH)/firmware/mt6630_fm_v2_coeff_tx.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6630_fm_v2_coeff_tx.bin \
     $(LOCAL_PATH)/firmware/mt6631_fm_channel_param.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_channel_param.dat \
     $(LOCAL_PATH)/firmware/mt6631_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_coeff.bin \
+    $(LOCAL_PATH)/firmware/mt6631_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6631_fm_v1_patch.bin \
     $(LOCAL_PATH)/firmware/mt6632_fm_v1_coeff.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_coeff.bin \
     $(LOCAL_PATH)/firmware/mt6632_fm_v1_patch.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6632_fm_v1_patch.bin \
     $(LOCAL_PATH)/firmware/mt6635_fm_channel_param.dat:$(TARGET_COPY_OUT_VENDOR)/firmware/mt6635_fm_channel_param.dat \
