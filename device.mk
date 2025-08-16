@@ -223,7 +223,9 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/apdb/APDB_MT6835___W2450:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6835___W2450 \
     $(LOCAL_PATH)/apdb/APDB_MT6835___W2450_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6835___W2450_ENUM \
     $(LOCAL_PATH)/displayconfig/display_id_4627039422300187648:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648 \
-    $(LOCAL_PATH)/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    $(LOCAL_PATH)/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    $(LOCAL_PATH)/firmware/txpowerctrl.cfg:$(TARGET_COPY_OUT_VENDOR)/firmware/txpowerctrl.cfg \
+    $(LOCAL_PATH)/AbnormalDisplayLog_dynamic.xml:$(TARGET_COPY_OUT_VENDOR)/etc/AbnormalDisplayLog_dynamic.xml
     
 
 
