@@ -218,6 +218,14 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/firmware/wlan-connection-roaming-backup:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming-backup \
     $(LOCAL_PATH)/firmware/wlan-connection-roaming.ini:$(TARGET_COPY_OUT_VENDOR)/firmware/wlan-connection-roaming.ini \
     $(LOCAL_PATH)/firmware/nfc/sec_s3nsen6_firmware.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/nfc/sec_s3nsen6_firmware.bin
+    $(LOCAL_PATH)/nfc/sec_s3nsen6_swreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nsen6_swreg.bin \
+    $(LOCAL_PATH)/nfc/sec_s3nsen6_hwreg.bin:$(TARGET_COPY_OUT_VENDOR)/etc/nfc/sec_s3nsen6_hwreg.bin \
+    $(LOCAL_PATH)/apdb/APDB_MT6835___W2450:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6835___W2450 \
+    $(LOCAL_PATH)/apdb/APDB_MT6835___W2450_ENUM:$(TARGET_COPY_OUT_VENDOR)/etc/apdb/APDB_MT6835___W2450_ENUM \
+    $(LOCAL_PATH)/displayconfig/display_id_4627039422300187648:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_id_4627039422300187648 \
+    $(LOCAL_PATH)/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml
+    
+
 
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
