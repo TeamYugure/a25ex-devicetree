@@ -6,7 +6,7 @@ LOCAL_PATH := device/samsung/a25ex
 PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_USE_DYNAMIC_PARTITIONS := true
-#PRODUCT_TARGET_VNDK_VERSION := 35
+#PRODUCT_TARGET_VNDK_VERSION := 36
 PRODUCT_EXTRA_VNDK_VERSIONS := 35
 PRODUCT_SHIPPING_API_LEVEL := 35
 PRODUCT_FIRST_API_LEVEL := 33
@@ -177,13 +177,18 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi.supplicant@1.2.vendor \
     android.hardware.wifi.hostapd@1.1.vendor
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/wifi/p2p_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/p2p_supplicant_overlay.conf \
+    $(LOCAL_PATH)/wifi/wpa_supplicant.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant.conf \
+    $(LOCAL_PATH)/wifi/wpa_supplicant_overlay.conf:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/wpa_supplicant_overlay.conf
+
 # Overlays
 PRODUCT_ENFORCE_RRO_TARGETS := *
 
 # Rootdir
 PRODUCT_PACKAGES += \
     init.insmod.sh \
-    install-recovery.sh \
+    install-recovery.sh
 
 PRODUCT_PACKAGES += \
     fstab.mt6835 \
@@ -211,7 +216,7 @@ PRODUCT_PACKAGES += \
     meta_init.vendor.rc \
     multi_init.rc \
     init.recovery.mt6835.rc \
-    init.recovery.samsung.rc \
+    init.recovery.samsung.rc
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/fstab.mt6835:$(TARGET_COPY_OUT_RAMDISK)/fstab.mt6835
