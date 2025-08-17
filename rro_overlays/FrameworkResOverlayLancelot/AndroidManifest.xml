@@ -11,7 +11,7 @@
      limitations under the License.
 -->
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.android.frameworksres.overlay.a22">
+    package="com.android.frameworksres.overlay.a25ex">
 
     <application android:hasCode="false" />
     <overlay
