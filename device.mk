@@ -11,6 +11,11 @@ PRODUCT_EXTRA_VNDK_VERSIONS := 35
 PRODUCT_SHIPPING_API_LEVEL := 35
 PRODUCT_FIRST_API_LEVEL := 33
 
+
+PRODUCT_PACKAGES += \
+    FrameworksResOverlayLancelot \
+    SystemUIOverlayLancelot
+
 # fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.1-impl-mock \
