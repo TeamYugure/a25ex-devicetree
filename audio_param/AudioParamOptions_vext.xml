@@ -22,7 +22,6 @@
  <Param name="MTK_AUDIO_SPH_LPBK_PARAM" value="" />
  <Param name="MTK_AUDIO_GAIN_TABLE_BT" value="" />
  <Param name="MTK_AUDIO_BT_NREC_WO_ENH_MODE" value="" />
- <Param name="MTK_AUDIO_TUNING_TOOL_V2_PHASE" value="2" />
  <Param name="MATV_AUDIO_SUPPORT" value="" />
  <Param name="MTK_FM_SUPPORT" value="yes" />
  <Param name="MTK_HEADSET_ACTIVE_NOISE_CANCELLATION" value="" />
@@ -35,6 +34,7 @@
  <Param name="MTK_AUDIO" value="yes" />
  <Param name="USE_CUSTOM_AUDIO_POLICY" value="" />
  <Param name="USE_XML_AUDIO_POLICY_CONF" value="" />
+ <Param name="MTK_AUDIO_TUNING_TOOL_VERSION" value="V2.2" />
  <Param name="MTK_AUDIO_TUNNELING_SUPPORT" value="" />
  <Param name="MTK_SMARTPA_DUMMY_LIB" value="" />
  <Param name="MTK_HIFIAUDIO_SUPPORT" value="yes" />
@@ -46,6 +46,7 @@
  <Param name="MTK_AUDIO_A2DP_LATENCY_IMPROVE" value="yes" />
  <Param name="MTK_BT_HEARING_AID_SUPPORT" value="yes" />
  <Param name="MTK_SPK_AP_SWMIX_PROCESS" value="yes" />
+ <Param name="MTK_AUDIODSP_SUPPORT" value="no" />
  <Param name="MTK_INCALL_HANDSFREE_DMNR" value="no" />
  <Param name="MTK_VOW_SUPPORT" value="no" />
  <Param name="MTK_VOW_AMAZON_SUPPORT" value="no" />
@@ -54,7 +55,11 @@
  <Param name="MTK_VOW_MAX_PDK_NUMBER" value="0" />
  <Param name="MTK_VOW_MULTI_KEYPHRASE_SUPPORT" value="" />
  <Param name="MTK_VOW_SINGLE_MIC_SELECT" value="" />
+ <Param name="MTK_VOW_RECORD_CONCURRENT" value="no" />
+ <Param name="MTK_VOW_NORMAL_RECORD_ENROLL" value="" />
  <Param name="MTK_PHONE_CALL_FIXED_48K_SAMPLERATE" value="yes" />
+ <Param name="MTK_TC10_FEATURE" value="yes" />
+ <Param name="MTK_TC10_IN_HOUSE" value="yes" />
  <Param name="VIR_WIFI_ONLY_SUPPORT" value="no" />
  <Param name="VIR_3G_DATA_ONLY_SUPPORT" value="no" />
  <Param name="VIR_ASR_SUPPORT" value="no" />
