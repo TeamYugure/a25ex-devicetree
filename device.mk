@@ -35,6 +35,12 @@ PRODUCT_PACKAGES += \
     mtk_plpath_utils \
     mtk_plpath_utils.recovery
 
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service \
+    com.android.nfc_extras \
+    NfcNci \
+    Tag 
+
 # Audio
 PRODUCT_PACKAGES += \
     audio.bluetooth.default \
